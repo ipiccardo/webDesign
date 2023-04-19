@@ -1,0 +1,23 @@
+
+============ MISC ============
+
+template:
+http://preview.themeforest.net/item/black-white-labels-multipurpose-template/full_screen_preview/19695069?_ga=2.168304936.800867874.1584373456-951650434.1569084027
+
+
+title bg #F7F8F9
+
+about areas:
+  diseño
+  desarrollo
+  analytics
+  speed & ADA audits
+
+imgs de portfolio 370x390
+2x: 740x780
+
+img team 310x315
+2x: 620x630
+
+========= TODO ==========
+
