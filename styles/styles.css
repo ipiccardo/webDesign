@@ -478,9 +478,9 @@ nav.black .logo-container,
 #portfolio .item.tango .image-container {
   background-image: url("../assets/images/tango.jpg");
 }
-#portfolio .item.chevere .image-container {
+/* #portfolio .item.chevere .image-container {
   background-image: url("../assets/images/lapa_verde.jpg");
-}
+} */
 #portfolio .item.star .image-container {
   background-image: url("../assets/images/star_peluqueria.jpg");
 }
