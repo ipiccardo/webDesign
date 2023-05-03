@@ -351,7 +351,7 @@ nav.black .logo-container,
 }
 
 /*
-	hero 
+	portrait 
 */
 @keyframes caret {
   50% {
@@ -359,30 +359,30 @@ nav.black .logo-container,
   }
 }
 
-.hero {
-  background-image: url("../assets/images/hero_dkp.jpg");
+.portrait {
+  background-image: url("../assets/images/portrait.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
   background-attachment: fixed;
 }
-.hero .overlay {
+.portrait .overlay {
   opacity: 0.5;
 }
-.hero .content {
+.portrait .content {
   position: relative;
   z-index: 2;
   color: #fff;
   flex-direction: column;
 }
-.hero .content h1 {
+.portrait .content h1 {
   font-size: 4em;
   margin-bottom: 0.1em;
   text-transform: none;
   font-weight: 400;
 }
-.hero .typewrite .wrap {
+.portrait .typewrite .wrap {
   border-right: 0.05em solid;
   animation: caret 1s steps(1) infinite;
 }
@@ -466,19 +466,19 @@ nav.black .logo-container,
   position: relative;
   border: 3px solid #dedede;
 }
-#portfolio .item.shanti .image-container {
+#portfolio .item.nutricionista .image-container {
   background-image: url("../assets/images/proyecto-nutricionista.jpg");
 }
 #portfolio .item.bike .image-container {
   background-image: url("../assets/images/turismo.jpg");
 }
-#portfolio .item.tattoo .image-container {
+#portfolio .item.marsie .image-container {
   background-image: url("../assets/images/proyecto-marsie.jpg");
 }
 #portfolio .item.tango .image-container {
   background-image: url("../assets/images/tango.jpg");
 }
-#portfolio .item.chevere .image-container {
+#portfolio .item.lapa .image-container {
   background-image: url("../assets/images/lapa_verde.jpg");
 }
 #portfolio .item.star .image-container {
@@ -734,9 +734,9 @@ footer svg rect {
   .bg-fixed {
     background-attachment: initial !important;
   }
-  /*hero*/
-  .hero {
-    background-image: url("../assets/images/hero_sm-v2.jpg");
+  /*portrait*/
+  .portrait {
+    background-image: url("../assets/images/portrait.jpg");
   }
   /*services*/
   #services .services-grid {
