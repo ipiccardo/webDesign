@@ -377,7 +377,7 @@ nav.black .logo-container,
   flex-direction: column;
 }
 .portrait .content h1 {
-  font-size: 4em;
+  font-size: 2em;
   margin-bottom: 0.1em;
   text-transform: none;
   font-weight: 400;
@@ -706,6 +706,7 @@ footer .content {
   justify-content: space-between;
 }
 footer a {
+  font-size: 0.9em;
   align-items: center;
 }
 footer svg {
