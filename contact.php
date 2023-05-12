@@ -1,5 +1,5 @@
 <?php
-/* You Mail ID */
+/* Your Mail ID */
 define('TO_EMAIL', 'webcraftersok@gmail.com');
 class Mailer{
 
