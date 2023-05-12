@@ -1,6 +1,6 @@
 <?php
 /* You Mail ID */
-define('TO_EMAIL', 'info@nexo.site');
+define('TO_EMAIL', 'webcraftersok@gmail.com');
 class Mailer{
 
     private $_params;
@@ -50,7 +50,7 @@ class Mailer{
         //  'Reply-To: "' . $this->_params['name'] . '" <' . $this->_params['email'] . ">\r\n" .
             'X-Mailer: PHP/' . phpversion();
 
-        $subject	= "Message from nexo.site";
+        $subject	= "Message from Webcrafters site";
 		$message="\n\n  Nombre: ".$this->_params['name']."\n\n  Email: ".$this->_params['email']."\n\n  Mensaje: ".$this->_params['message'];
 
         $to = TO_EMAIL;
